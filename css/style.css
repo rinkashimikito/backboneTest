@@ -1,0 +1,154 @@
+@font-face { font-family: Novecentowide; 
+    src: url('../fonts/Novecentowide-Medium.eot');
+    src: url('../fonts/Novecentowide-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Novecentowide-Medium.woff') format('woff'),
+         url('../fonts/Novecentowide-Medium.ttf') format('truetype'),
+         url('../fonts/Novecentowide-Medium.svg#novecento_wide_ultralightbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/*==========================================================*/
+
+.box {
+    width: 310px;
+    overflow: hidden;
+    background-color: #ececec;
+    margin: 32px auto;
+    padding: 0px
+}
+
+h1.iconed {
+    color: #4a82a5;
+    font-size: 18px;
+    margin: 27px 40px 21px 50px;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    padding: 0;
+    float: left;
+}
+
+h1 .info {
+    background: url(../images/icons.png) -84px 0px no-repeat;
+    position: absolute;
+    right: -21px;
+    top: 5px;
+    display: block;
+    width: 11px;
+    height: 11px
+}
+
+h1, #itemList li a {
+    font-family: Novecentowide;
+    font-weight: 400
+}
+
+.note {
+    background-color: #f1f1f1;
+    margin: 0 10px 10px;
+    padding: 10px 0;
+    border: 1px solid #4a82a5;
+    border-left: 0;
+    border-right: 0;
+    display: none;
+    clear: both;
+}
+
+.note p {
+    margin: 0 10px 20px 25px;
+    color: #777;
+    font-size: 12px;
+    font-family: Helvetica;
+    line-height: 1.4em
+}
+
+#itemList {
+    margin: 0 40px 20px 50px;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+#itemList li {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 28px 0;
+    padding: 0;
+}
+
+#itemList li:nth-child(odd) {
+    margin: 0 60px 28px 0
+}
+
+#itemList li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ececec;
+    width: 70px;
+    overflow: hidden;
+    display: block;
+    padding: 52px 0 10px 10px;
+    text-decoration: none;
+}
+
+/* icons */
+
+.itemIcon a {
+    background: transparent url(../images/icons.png) 0 0 no-repeat;
+}
+
+a.tickIco {
+    background-position: 0px 0px;
+}
+
+a.handIco {
+    background-position: 0 -76px;
+}
+
+a.moneyIco {
+    background-position: 0 -161px;
+}
+
+/* background colors */
+
+a.orangeLightBg {
+    background-color: #d37724;
+}
+
+a.orangeDarkBg {
+    background-color: #c64918;
+}
+
+a.blueLightBg {
+    background-color: #55777f;
+}
+
+a.blueDarkBg {
+    background-color: #556a70;
+}
+
+a.greenDarkBg {
+    background-color: #68a03d;
+}

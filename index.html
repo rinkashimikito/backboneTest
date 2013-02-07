@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>aimia</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <script id="itemTemplate" type="text/template">
+      <a href="<%= itemUrl %>" class="<%= itemClass %>"><%= itemLink %></a>
+  </script>
+
+  <div class="box">
+    <h1 class="iconed">headline text a <a href="#" class="info"></a></h1>
+    <div class="note">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis justo mi, quis fringilla odio. Nulla facilisi. Aenean id consectetur magna. Nam quis arcu et eros vulputate volutpat.</p>
+      <p>Suspendisse est velit, pulvinar a auctor in, auctor in risus. In nisi turpis, varius vitae sollicitudin quis, mollis et odio. Phasellus id ipsum ac tellus lacinia ultricies ut semper est. Pellentesque consequat nunc a est auctor eget commodo leo auctor.</p>
+    </div>
+    <ul id="itemList" class="itemIcon"></ul>
+  </div>
+  <script src="js/libs/jquery-1.7.1.min.js"></script>
+  <script src="js/libs/underscore-min.js"></script>
+  <script src="js/libs/backbone-min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
